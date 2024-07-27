@@ -1,8 +1,7 @@
-const verifyFile = require('./lib/verify-file.js');
 const os = require('os');
 const path = require('path');
 const process = require('process');
-
+const verifyFile = require('./lib/verify-file.js');
 
 const platform = process.env.npm_config_platform || os.platform();
 const arch = process.env.npm_config_arch || os.arch();
