@@ -1,5 +1,5 @@
 {
-	"name": "@ffprobe-installer/ffprobe",
+	"name": "@ffprobe-installer/ffprobe-s",
 	"version": "2.1.2",
 	"main": "index.js",
 	"scripts": {
@@ -50,9 +50,9 @@
 		"url": "git+https://github.com/SavageCore/node-ffprobe-installer.git"
 	},
 	"bugs": {
-		"url": "https://github.com/SavageCore/node-ffprobe-installer/issues"
+		"url": "https://github.com/wood9/node-ffprobe-installer"
 	},
-	"homepage": "https://github.com/SavageCore/node-ffprobe-installer#readme",
+	"homepage": "https://github.com/wood9/node-ffprobe-installer",
 	"xo": {
 		"rules": {
 			"unicorn/prefer-module": 0,
