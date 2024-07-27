@@ -1,13 +1,12 @@
 {
-	"name": "@ffprobe-installer/ffprobe-s",
+	"name": "ffprobe-installer",
 	"version": "2.1.2",
 	"main": "index.js",
 	"scripts": {
 		"lint": "xo",
 		"preversion": "npm run test",
 		"types": "tsc",
-		"test": "xo && nyc ava && nyc report --reporter=text-lcov > coverage.lcov && codecov -t 54b3d620-a296-4d71-a717-c3e6e24ae9d9",
-		"prepare": "husky"
+		"test": "xo && nyc ava && nyc report --reporter=text-lcov > coverage.lcov && codecov -t 54b3d620-a296-4d71-a717-c3e6e24ae9d9"
 	},
 	"types": "types/index.d.ts",
 	"keywords": [
@@ -39,7 +38,6 @@
 		"codecov": "^3.7.2",
 		"execa": "^9.1.0",
 		"executable": "^4.1.1",
-		"husky": "^9.0.6",
 		"nyc": "^17.0.0",
 		"shx": "^0.3.3",
 		"typescript": "^5.1.6",
